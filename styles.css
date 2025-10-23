@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1F2937;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.card {
+    background-color: #1F2937;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.highlight {
+    color: #10B981;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    color: #D5D4D8;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.generate-btn {
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.generate-btn:hover {
+    background-color: #059669;
+}
+
+.password-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.password-field {
+    background-color: #273549;
+    color: #10B981;
+    border-radius: 6px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    min-height: 50px;
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    border: 1px solid #374151;
+}
+
+.password-field:empty::before {
+    content: "Click generate to create passwords";
+    color: #6B7280;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 30px 20px;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .highlight {
+        font-size: 2rem;
+    }
+    
+    .password-container {
+        flex-direction: column;
+    }
+    
+    .password-field {
+        min-width: 100%;
+    }
+}
