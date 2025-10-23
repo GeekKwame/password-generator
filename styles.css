@@ -43,8 +43,48 @@ body {
 .subtitle {
     color: #D5D4D8;
     font-size: 1rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-weight: 400;
+}
+
+.length-control {
+    margin-bottom: 30px;
+}
+
+.length-label {
+    color: #D5D4D8;
+    font-size: 1rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.length-input {
+    background-color: #273549;
+    color: #10B981;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 120px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+
+.length-input:focus {
+    outline: none;
+    border-color: #10B981;
+}
+
+.length-input::-webkit-outer-spin-button,
+.length-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.length-input[type=number] {
+    -moz-appearance: textfield;
 }
 
 .generate-btn {
@@ -84,12 +124,20 @@ body {
     align-items: center;
     word-break: break-all;
     border: 1px solid #374151;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.password-field:hover {
+    background-color: #374151;
+    border-color: #10B981;
 }
 
 .password-field:empty::before {
     content: "Click generate to create passwords";
     color: #6B7280;
     font-style: italic;
+    cursor: default;
 }
 
 @media (max-width: 768px) {
