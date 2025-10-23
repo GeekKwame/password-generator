@@ -139,8 +139,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **GeekKwame**
 - GitHub: [@GeekKwame](https://github.com/GeekKwame)
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn URL]
+- LinkedIn: [[LinkedIn URL](https://gh.linkedin.com/in/edmund-blessing)]
 
 ## 🙏 Acknowledgments
 
@@ -148,17 +147,5 @@ This project is open source and available under the [MIT License](LICENSE).
 - Built as part of JavaScript learning journey
 - Thanks to the open-source community for inspiration
 
-## 📈 Future Enhancements
-
-- [ ] Password strength indicator
-- [ ] Customizable password length slider
-- [ ] Copy to clipboard functionality
-- [ ] Password history feature
-- [ ] Export passwords as text file
-- [ ] Dark/Light theme toggle
-
----
-
 ⭐ **Star this repository if you found it helpful!**
 
-🔗 **Connect with me**: [GitHub](https://github.com/GeekKwame) | [Twitter](https://twitter.com/GeekKwame) | [LinkedIn](https://linkedin.com/in/geekkwame)
