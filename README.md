@@ -13,7 +13,7 @@ A modern, secure password generator application built with vanilla JavaScript, H
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://geekkwame.github.io/password-generator) *(Replace with your actual GitHub Pages URL)*
+[View Live Demo](https://22password-generator.netlify.app/) 
 
 ## 🛠️ Technologies Used
 
